@@ -180,21 +180,20 @@ a{
 }
 .card__item__1 > a > i{
     position: absolute;
-    left: 88%;
-    bottom: 6%;
+    left: 89%;
+    bottom: 7%;
     font-size: 40px;
     color: #cccccc;
     cursor: pointer;
 }
 .heart__1{
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
     background: linear-gradient( #ff79da, #9356dc);
     position: relative;
-    left: 88%;
-    bottom: 10%;
+    left: 90%;
+    bottom: 11%;
     transform: rotate(-45deg);
-    box-shadow: -10px 10px 50px #fa25cb;
     animation: heart_1 1s linear;
     opacity: 0;
 }
@@ -218,22 +217,20 @@ a{
 .heart__1::before{
     content: "";
     position: absolute;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     background: linear-gradient( #ff79da, #9356dc);
     top: -50%;
     border-radius: 50%;
-    box-shadow: -10px -10px 50px #fa25cb;
 }
 .heart__1::after{
     content: "";
     position: absolute;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     background: linear-gradient( #ff79da, #9356dc);
     right: -50%;
     border-radius: 50%;
-    box-shadow: -10px -10px 50px #fa25cb;
  }
 .card__item__2{
     width: 90%;
@@ -268,8 +265,8 @@ a{
 }
 .card__item__2 > a > i{
     position: absolute;
-    left: 88%;
-    bottom: 6%;
+    left: 89%;
+    bottom: 7%;
     font-size: 40px;
     color: #cccccc;
     cursor: pointer;
@@ -380,13 +377,13 @@ footer{
     cursor: pointer;
 }
 .heart{
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
     background: linear-gradient( #ff79da, #9356dc);
     position: relative;
-    bottom: 28px;
+    bottom: 29px;
+    right: -5px;
     transform: rotate(-45deg);
-    box-shadow: -10px 10px 50px #ff79da;
     animation: heart 1s linear;
     opacity: 0;
 }
@@ -410,22 +407,20 @@ footer{
 .heart::before{
     content: "";
     position: absolute;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     background: linear-gradient( #ff79da, #9356dc);
     top: -50%;
     border-radius: 50%;
-    box-shadow: -10px -10px 50px #ff79da;
 }
 .heart::after{
     content: "";
     position: absolute;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     background: linear-gradient( #ff79da, #9356dc);
     right: -50%;
     border-radius: 50%;
-    box-shadow: -10px -10px 50px #ff79da;
  }
 .menu__pro{
     position: relative;
@@ -819,7 +814,7 @@ footer{
         .reserve button:hover{
             opacity: 0.8;
             box-shadow: 2px 2px 20px  #bb9999;
-            transform: scale(1);
+            transform: scale(1.1);
             
         }
         .menu__fonction{
@@ -945,20 +940,19 @@ footer{
     }
     .card__item__1 > a > i{
         position: absolute;
-        left: 90%;
+        left: 89%;
         bottom: 6%;
         font-size: 25px;
         color: #cccccc;
     }
     .heart__1{
-        height: 22px;
-        width: 22px;
+        height: 18px;
+        width: 18px;
         background: linear-gradient( #ff79da, #9356dc);
         position: relative;
-        left: 85%;
-        bottom: 13%;
+        left: 90%;
+        bottom: 14%;
         transform: rotate(-45deg);
-        box-shadow: -10px 10px 50px #fa25cb;
         animation: heart_1 1s linear;
         opacity: 0;
     }
@@ -980,22 +974,20 @@ footer{
     .heart__1::before{
         content: "";
         position: absolute;
-        width: 22px;
-        height: 22px;
+        width: 18px;
+        height: 18px;
         background: linear-gradient( #ff79da, #9356dc);
         top: -50%;
         border-radius: 50%;
-        box-shadow: -10px -10px 50px #fa25cb;
     }
     .heart__1::after{
         content: "";
         position: absolute;
-        width: 22px;
-        height: 22px;
+        width: 18px;
+        height: 18px;
         background: linear-gradient( #ff79da, #9356dc);
         right: -50%;
         border-radius: 50%;
-        box-shadow: -10px -10px 50px #fa25cb;
      }
     .card__item__2{
         width: 100%;
@@ -1030,9 +1022,9 @@ footer{
     }
     .card__item__2 > a > i{
         position: absolute;
-        left: 88%;
+        left: 89%;
         bottom: 6%;
-        font-size: 22px;
+        font-size: 25px;
         color: #cccccc;
     }
     
@@ -1175,7 +1167,6 @@ footer{
         background: linear-gradient( #ff79da, #9356dc);
         top: -50%;
         border-radius: 50%;
-        box-shadow: -10px -10px 50px #ff79da;
     }
     .heart::after{
         content: "";
@@ -1185,7 +1176,7 @@ footer{
         background: linear-gradient( #ff79da, #9356dc);
         right: -50%;
         border-radius: 50%;
-        box-shadow: -10px -10px 50px #ff79da;
+
      }
     .menu__pro__flex{
         display: flex;
@@ -1704,14 +1695,13 @@ footer{
         color: #cccccc;
     }
     .heart__1{
-        height: 22px;
-        width: 22px;
+        height: 20px;
+        width: 20px;
         background: linear-gradient( #ff79da, #9356dc);
         position: relative;
-        left: 85%;
+        left: 90%;
         bottom: 13%;
         transform: rotate(-45deg);
-        box-shadow: -10px 10px 50px #fa25cb;
         animation: heart_1 1s linear;
         opacity: 0;
     }
@@ -1735,22 +1725,20 @@ footer{
     .heart__1::before{
         content: "";
         position: absolute;
-        width: 22px;
-        height: 22px;
+        width: 20px;
+        height: 20px;
         background: linear-gradient( #ff79da, #9356dc);
         top: -50%;
         border-radius: 50%;
-        box-shadow: -10px -10px 50px #fa25cb;
     }
     .heart__1::after{
         content: "";
         position: absolute;
-        width: 22px;
-        height: 22px;
+        width: 20px;
+        height: 20px;
         background: linear-gradient( #ff79da, #9356dc);
         right: -50%;
         border-radius: 50%;
-        box-shadow: -10px -10px 50px #fa25cb;
      }
 .card__item__2{
     width: 100%;
@@ -1891,13 +1879,12 @@ footer{
     font-size: 30px;
 }
 .heart{
-    height: 22px;
-    width: 22px;
+    height: 20px;
+    width: 20px;
     background: linear-gradient( #ff79da, #9356dc);
     position: relative;
     bottom: 22px;
     transform: rotate(-45deg);
-    box-shadow: -10px 10px 50px #ff79da;
     animation: heart_1 1s linear;
     opacity: 0;
 }
@@ -1919,22 +1906,20 @@ footer{
 .heart::before{
     content: "";
     position: absolute;
-    width: 22px;
-    height: 22px;
+    width: 20px;
+    height: 20px;
     background: linear-gradient( #ff79da, #9356dc);
     top: -50%;
     border-radius: 50%;
-    box-shadow: -10px -10px 50px #ff79da;
 }
 .heart::after{
     content: "";
     position: absolute;
-    width: 22px;
-    height: 22px;
+    width: 20px;
+    height: 20px;
     background: linear-gradient( #ff79da, #9356dc);
     right: -50%;
     border-radius: 50%;
-    box-shadow: -10px -10px 50px #ff79da;
  }
 .menu__food{
     position: relative;
